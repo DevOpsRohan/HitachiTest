@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-11T11:01:18 IST" name="Default suite" finished-at="2023-02-11T11:03:02 IST" duration-ms="103516">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOption.TestRunner@3e08ff24]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-02-11T11:01:18 IST" name="Default test" finished-at="2023-02-11T11:03:02 IST" duration-ms="103516">
+      <class name="CucumberOption.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CucumberOption.TestRunner@3e08ff24]" started-at="2023-02-11T11:01:19 IST" name="setUpClass" finished-at="2023-02-11T11:01:20 IST" duration-ms="1528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@e886caf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOption.TestRunner@3e08ff24]" started-at="2023-02-11T11:01:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-11T11:01:43 IST" duration-ms="23347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC001 User Search with correct(exact word) keyword"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Hitachi Solutions"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOption.TestRunner@3e08ff24]" started-at="2023-02-11T11:01:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-11T11:02:05 IST" duration-ms="21745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC002 User Search with correct (Partially word) keyword"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Hitachi Solutions"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOption.TestRunner@3e08ff24]" started-at="2023-02-11T11:02:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-11T11:02:26 IST" duration-ms="21017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC003 User Search with blank keyword"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Hitachi Solutions"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOption.TestRunner@3e08ff24]" started-at="2023-02-11T11:02:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-11T11:02:43 IST" duration-ms="16590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC004 User Search with Incorrect keyword"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Hitachi Solutions"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOption.TestRunner@3e08ff24]" started-at="2023-02-11T11:02:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-11T11:03:01 IST" duration-ms="18494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC005 User Search with Alphanumeric keyword"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Hitachi Solutions"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberOption.TestRunner@3e08ff24]" started-at="2023-02-11T11:03:01 IST" name="tearDownClass" finished-at="2023-02-11T11:03:02 IST" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CucumberOption.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
